@@ -1,0 +1,384 @@
+
+/*/ -------------------- Specification --------------------/*/
+
+body {
+	font-family: 'Open Sans', 'Montserrat', 'PT Sans Caption', sans-serif;
+  font-weight: 300;
+	font-size: 24px;
+	color: #f7f7f7;
+  letter-spacing: 0.02em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+h1 {
+  font-family: 'PT Sans Caption';
+  font-size: 120px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 36px;
+}
+ul, li, i {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+a {
+	display: block;
+}
+p {
+	margin: 0;
+}
+button {
+	cursor: pointer;
+}
+a, div, span, p, i, button {
+	transition: all 0.2s ease;
+}
+a, a:hover, a:active {
+	text-decoration: none!important;
+  color: #f7f7f7;
+}
+div:hover, div:active, div:focus, button:hover, button:active, button:focus, input:hover, input:active, input:focus {
+	outline: none;
+}
+
+/*/ -------------------- Header Section --------------------/*/
+
+
+.navigation {
+  font-family: 'Open Sans';
+  background: #1e1e1e;
+  padding: 30px 0 30px 0;
+}
+.offer {
+  background: url(../img/background_top.jpg) no-repeat center center/cover;
+  padding: 375px 0 467px 0;
+}
+.logo {
+  width: 120px;
+}
+.menu-item__link {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.menu {
+  vertical-align: middle;
+}
+.offer-discription {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 49px;
+}
+.offer-title {
+  position: relative;
+}
+.offer-title:after {
+  content: '';
+  background: #800000;
+  height: 2px;
+  width: 58%;
+  position: absolute;
+  bottom: -32px;
+  left: 0%;
+}
+.perenos {
+  display: none;
+}
+
+
+/*/ -------------------- Do Section --------------------/*/
+
+
+.do {
+  background: #1e1e1e;
+  padding: 110px 0 117px 0;
+}
+.do-title {
+  margin-bottom: 144px;
+  text-align: center;
+  position: relative;
+}
+.do-title:after, .free-title:after, .audio-title:after {
+  content: '';
+  background: #800000;
+  height: 2px;
+  width: 50%;
+  position: absolute;
+  bottom: -37px;
+  left: 25%;
+}
+.do-element {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+.do-element__title {
+  margin-bottom: 45px;
+}
+.do-element__text {
+  font-family: 'Open Sans';
+  font-weight: 300;
+
+}
+
+
+/*/ -------------------- About Section --------------------/*/
+
+
+.about {
+  background: url(../img/background-middle.jpg) no-repeat center center/cover;
+  padding: 178px 0 206px 0;
+}
+.about-title, .about-text {
+  text-align: right;
+}
+.about-text {
+  margin-bottom: 53px;
+}
+.about-title {
+  margin-bottom: 58px;
+}
+.about-wrap {
+  padding-right: 120px;
+}
+
+
+/*/ -------------------- Audio Section --------------------/*/
+
+
+.audio {
+  background: #1e1e1e;
+  padding: 110px 0 112px 0;
+}
+.audio-title {
+  text-align: center;
+  margin-bottom: 164px;
+  position: relative;
+}
+.audiojs {
+    width: 220px;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.audiojs .scrubber {
+    width: 162px;
+}
+.player {
+  margin-bottom: 80px;
+}
+.player-title {
+  text-align: center;
+  margin-bottom: 38px;
+  position: relative;
+}
+.player-title:after {
+  content: '';
+  background: #800000;
+  height: 2px;
+  width: 44%;
+  position: absolute;
+  bottom: -12px;
+  left: 28%;
+}
+.audiojs .play-pause {
+  width: 84px;
+  height: 40px;
+  padding: 4px 6px;
+  margin: 0px;
+  float: left;
+  border-right: 1px solid #000;
+}
+
+/*/ -------------------- Can-order Section --------------------/*/
+
+.can-order {
+  background: url(../img/background-bottom.jpg) no-repeat center center/cover;
+  padding: 228px 0 192px 0;
+}
+.offer-list {
+  padding-left: 170px;
+}
+.offer-list__title {
+  margin-bottom: 54px;
+}
+.offer-list__item {
+  padding-left: 30px;
+  position: relative;
+}
+.offer-list__item:before {
+  content: '-';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*/ -------------------- Free Section --------------------/*/
+
+.free {
+  background: #363636;
+  padding: 109px 0 86px 0;
+}
+
+.free-title {
+  margin-bottom: 154px;
+  text-align: center;
+  position: relative;
+}
+.free-element {
+  text-align: center;
+}
+.free-element__title {
+  margin-bottom: 54px;
+}
+
+/*/ -------------------- Feedback Section --------------------/*/
+
+.feedback {
+  padding: 89px 0 26px 0;
+  background: #1e1e1e;
+}
+.feedback-title, .feedback-text {
+  text-align: center;
+}
+.feedback-title {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  margin-bottom: 30px;
+
+}
+.feedback-form {
+  margin-top: 107px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feedback-form__input {
+  padding: 6px;
+  margin-top: 28px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #f7f7f7;
+  color: #f7f7f7;
+  width: 70%;
+  font-weight: 40px;
+}
+
+.feedback-form__btn {
+  margin-top: 73px;
+  width: 198px;
+  padding: 21px 0;
+  line-height: 22px;
+  background: #800000;
+  color: #f7f7f7;
+  text-align: center;
+  border: 2px solid #800000;
+  border-radius: 35px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.feedback-form__btn:hover {
+  background: transparent;
+  color: #f7f7f7d1;
+  border: 2px solid #800000;
+}
+.mail {
+  text-align: center;
+  display: block;
+  margin-top: 92px;
+}
+.mail:hover {
+  color: #800000;
+}
+
+
+
+/*/ -------------------- Footer Section --------------------/*/
+
+
+.footer {
+  background: #000;
+  padding: 15px 0 19px 0;
+}
+.social {
+  margin: 0 11px;
+}
+.social:hover {
+  margin: 0 11px;
+  color: #800000;
+  transition: all 0.01s ease!important;
+}
+
+
+/*/ -------------------- Форма --------------------/*/
+
+#loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 240, 240, 0.91);
+    overflow: hidden;
+    display: none;
+}
+label.error {
+    font-size: 12px;
+    color: red;
+
+    bottom: 315px;
+}
+input.error {
+    border-bottom: 2px solid red !important;
+}
+input.valid {
+    border-bottom: 2px solid green !important;
+}
+#loader img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    top: 50%;
+    margin-top: -25px;
+}
+#overlay {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000c;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+#thx {
+  background: #fff;
+  color: #000;
+  position: absolute;
+  border-radius: 15px;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  padding: 30px;
+  margin-top: -20px;
+}

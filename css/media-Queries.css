@@ -1,0 +1,159 @@
+/*/ --------------- Media Queries ---------------/*/
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	.about {
+    	background: url(../img/background-middle.jpg) no-repeat center right 40%/cover;
+    	padding: 178px 0 206px 0;
+	}
+	.can-order {
+    	background: url(../img/background-bottom.jpg) no-repeat center left 40%/cover;
+    	padding: 180px 0 150px 0;
+	}
+}
+/* 768-992px */
+@media screen and (max-width: 992px) {
+	h1 {
+    	font-size: 100px;
+	}
+	.menu {
+		padding: 5px 0 0 25px;
+	}
+	.menu-item__link {
+		font-size: 20px;
+	}
+	.offer {
+	    padding: 220px 0 300px 0;
+	}
+	.can-order {
+		padding: 228px 0 192px 0;	
+	}
+	.offer-list {
+		padding-left: 0;
+	}
+	.do-element {
+		margin-bottom: 70px;
+	}
+	.do {
+		padding-bottom: 50px;
+	}
+	.about-wrap {
+    	padding-right: 0;
+	}
+	.about {
+		background: url(../img/background-middle.jpg) no-repeat center center/cover;
+		padding: 100px 0 80px 0;
+	}
+	.free-element {
+		margin-bottom: 50px;
+	}
+	.free-element__title {
+		margin-bottom: 15px;
+	}
+	.feedback-form__input {
+		width: 95%;
+	}
+	.can-order {
+	    background: url(../img/background-bottom.jpg) no-repeat center right/cover;
+	    padding: 100px 0 100px 0;
+	}
+}
+/* 576-768px */
+@media screen and (max-width: 768px) {
+	.menu {
+		padding: 5px 0 0 25px;
+	}
+	.menu-item__link {
+		font-size: 18px;
+		padding: 5px 10px 0 0;
+		letter-spacing: -0.1px;
+	}
+	.feedback-form__input {
+		width: 100%;
+	}
+	.player-title:after {
+		width: 28%;
+	    position: absolute;
+	    bottom: -12px;
+	    left: 36%;
+	}
+	.do-element {
+		width: 100%;
+	}
+	.do-title:after, .free-title:after, .audio-title:after {
+	    width: 80%;
+	    left: 10%;
+	}
+	.audio	{
+		padding: 70px 0 40px 0;
+	}
+	.offer {
+	    padding: 200px 0 250px 0;
+	}
+	.offer-title:after {
+		display: none;
+	}
+	.perenos {
+		display: block;
+	}
+}
+/* 320-576px */
+@media screen and (max-width: 576px) {
+	.offer {
+    	padding: 150px 0 200px 0;
+    }
+	h1 {
+    	font-size: 60px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	h3 {
+		font-size: 23px;
+	}
+	h4 {
+		font-size: 30px;
+	}
+	.menu {
+		padding: 0;
+	}
+	.menu-item__link {
+		font-size: 13px;
+	}
+	.free {
+		padding: 50px 0 40px 0;
+	}
+	.free-title {
+		margin-bottom: 50px;
+	}
+	.do-title {
+		margin-bottom: 50px;
+	}
+	.offer-discription {
+		font-size: 25px;
+	}
+	.do-element__text {
+		font-size: 18px;
+	}
+	.free-element__text {
+		font-size: 18px;
+	}
+	.feedback-title {
+		font-size: 30px;
+	}
+	.feedback-text {
+		font-size: 15px;
+	}
+	.feedback-form {
+		margin-top: 20px;
+	}
+	.offer-list__item {
+		font-size: 15px;
+	}
+	.about-text {
+		font-size: 15px;
+	}
+	.navigation {
+		padding: 13px 0 13px 0;
+	}
+
+}
